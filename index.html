@@ -12,12 +12,6 @@
       padding: 0;
       color: #333;
     }
-   .foto {
-  	max-width: 150px;
-  	border-radius: 50%;
- 	 display: block;
-  	margin-bottom: 1rem;
-    }
 
     .container {
       max-width: 800px;
@@ -27,31 +21,45 @@
       border-radius: 12px;
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
+
+    .presentacion {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .foto {
+      max-width: 150px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
     h1 {
       color: #1e88e5;
-	<img src="perfil.jpg" alt="Foto de perfil" class="foto" />
-
+      margin-top: 0;
     }
+
     .section {
       margin-bottom: 2rem;
     }
+
     .contacto a {
       display: inline-block;
       margin: 0.5rem 0;
       text-decoration: none;
       color: #1e88e5;
     }
-    .foto {
-      max-width: 150px;
-      border-radius: 50%;
-    }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="section">
-      <h1>¡Hola! Soy Rafa</h1>
-      <p>Doy clases de repaso de inglés, mates y ciencias en general a estudiantes que cursen ESO y/o Bachillerato.</p>
+    <div class="presentacion">
+      <img src="perfil.jpg" alt="Foto de Rafa" class="foto" />
+      <div>
+        <h1>¡Hola! Soy Rafa</h1>
+        <p>Doy clases de repaso de inglés, mates y ciencias en general a estudiantes que cursen ESO y/o Bachillerato.</p>
+      </div>
     </div>
 
     <div class="section">
@@ -59,16 +67,15 @@
       <ul>
         <li>Matemáticas (ESO y Bachillerato)</li>
         <li>Física</li>
-	<li>Química</li>
+        <li>Química</li>
         <li>Inglés</li>
-        <!-- Puedes editar estas -->
       </ul>
     </div>
 
     <div class="section">
       <h2>🎓 Sobre mí</h2>
       <p>He estudiado ESO y Bachillerato científico en el INS Josep Lladonosa de Lleida, y actualmente estoy cursando primero de carrera de Física en la UAB. 
-Me gradué de Bachillerato con una nota media de 9,33 y una nota final de selectividad de 12,714.</p>
+      Me gradué de Bachillerato con una nota media de 9,33 y una nota final de selectividad de 12,714.</p>
     </div>
 
     <div class="section">
